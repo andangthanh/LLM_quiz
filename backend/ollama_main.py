@@ -39,3 +39,5 @@ resp = client.chat.completions.create(
 print(resp.question)
 print(resp.possible_answers)
 print(resp.unique_solution)
+
+#TODO finetune to league of legends, input topic only league related, input to llm to give optional topics if input is unrelated
